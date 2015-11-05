@@ -12,6 +12,18 @@
 		E2D9678C1BE87817008FEDD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D9678A1BE87817008FEDD2 /* Main.storyboard */; };
 		E2D9678E1BE87817008FEDD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D9678D1BE87817008FEDD2 /* Assets.xcassets */; };
 		E2D967911BE87817008FEDD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D9678F1BE87817008FEDD2 /* LaunchScreen.storyboard */; };
+		E2D967B21BE88B89008FEDD2 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D967AD1BE88B89008FEDD2 /* ysocket.swift */; };
+		E2D967B31BE88B89008FEDD2 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = E2D967AE1BE88B89008FEDD2 /* ytcpsocket.c */; };
+		E2D967B41BE88B89008FEDD2 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D967AF1BE88B89008FEDD2 /* ytcpsocket.swift */; };
+		E2D967B51BE88B89008FEDD2 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = E2D967B01BE88B89008FEDD2 /* yudpsocket.c */; };
+		E2D967B61BE88B89008FEDD2 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D967B11BE88B89008FEDD2 /* yudpsocket.swift */; };
+		E2D967CE1BE8950F008FEDD2 /* handleNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = E2D967C41BE8950F008FEDD2 /* handleNormal.png */; };
+		E2D967CF1BE8950F008FEDD2 /* handleNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2D967C51BE8950F008FEDD2 /* handleNormal@2x.png */; };
+		E2D967D01BE8950F008FEDD2 /* handlePressed.png in Resources */ = {isa = PBXBuildFile; fileRef = E2D967C61BE8950F008FEDD2 /* handlePressed.png */; };
+		E2D967D11BE8950F008FEDD2 /* handlePressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2D967C71BE8950F008FEDD2 /* handlePressed@2x.png */; };
+		E2D967D31BE8950F008FEDD2 /* rockerOpaqueBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E2D967C91BE8950F008FEDD2 /* rockerOpaqueBg.png */; };
+		E2D967D51BE8950F008FEDD2 /* rockerTranslucentBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E2D967CB1BE8950F008FEDD2 /* rockerTranslucentBg.png */; };
+		E2D967D61BE8950F008FEDD2 /* ZMRocker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D967CD1BE8950F008FEDD2 /* ZMRocker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,20 @@
 		E2D9678D1BE87817008FEDD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D967901BE87817008FEDD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2D967921BE87817008FEDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D967AD1BE88B89008FEDD2 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		E2D967AE1BE88B89008FEDD2 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		E2D967AF1BE88B89008FEDD2 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		E2D967B01BE88B89008FEDD2 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		E2D967B11BE88B89008FEDD2 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		E2D967C41BE8950F008FEDD2 /* handleNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handleNormal.png; sourceTree = "<group>"; };
+		E2D967C51BE8950F008FEDD2 /* handleNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handleNormal@2x.png"; sourceTree = "<group>"; };
+		E2D967C61BE8950F008FEDD2 /* handlePressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handlePressed.png; sourceTree = "<group>"; };
+		E2D967C71BE8950F008FEDD2 /* handlePressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handlePressed@2x.png"; sourceTree = "<group>"; };
+		E2D967C91BE8950F008FEDD2 /* rockerOpaqueBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockerOpaqueBg.png; sourceTree = "<group>"; };
+		E2D967CB1BE8950F008FEDD2 /* rockerTranslucentBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockerTranslucentBg.png; sourceTree = "<group>"; };
+		E2D967CC1BE8950F008FEDD2 /* ZMRocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMRocker.h; sourceTree = "<group>"; };
+		E2D967CD1BE8950F008FEDD2 /* ZMRocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMRocker.m; sourceTree = "<group>"; };
+		E2D967D81BE897D5008FEDD2 /* WrtWifiCar-Bridge-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WrtWifiCar-Bridge-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,44 @@
 		E2D967851BE87816008FEDD2 /* WrtWifiCar */ = {
 			isa = PBXGroup;
 			children = (
+				E2D967C31BE8950F008FEDD2 /* ZMRocker */,
+				E2D967981BE87AE6008FEDD2 /* SwiftSockets */,
 				E2D967861BE87817008FEDD2 /* AppDelegate.swift */,
 				E2D967881BE87817008FEDD2 /* ViewController.swift */,
+				E2D967D81BE897D5008FEDD2 /* WrtWifiCar-Bridge-Header.h */,
 				E2D9678A1BE87817008FEDD2 /* Main.storyboard */,
 				E2D9678D1BE87817008FEDD2 /* Assets.xcassets */,
 				E2D9678F1BE87817008FEDD2 /* LaunchScreen.storyboard */,
 				E2D967921BE87817008FEDD2 /* Info.plist */,
 			);
 			path = WrtWifiCar;
+			sourceTree = "<group>";
+		};
+		E2D967981BE87AE6008FEDD2 /* SwiftSockets */ = {
+			isa = PBXGroup;
+			children = (
+				E2D967AD1BE88B89008FEDD2 /* ysocket.swift */,
+				E2D967AE1BE88B89008FEDD2 /* ytcpsocket.c */,
+				E2D967AF1BE88B89008FEDD2 /* ytcpsocket.swift */,
+				E2D967B01BE88B89008FEDD2 /* yudpsocket.c */,
+				E2D967B11BE88B89008FEDD2 /* yudpsocket.swift */,
+			);
+			name = SwiftSockets;
+			sourceTree = "<group>";
+		};
+		E2D967C31BE8950F008FEDD2 /* ZMRocker */ = {
+			isa = PBXGroup;
+			children = (
+				E2D967C41BE8950F008FEDD2 /* handleNormal.png */,
+				E2D967C51BE8950F008FEDD2 /* handleNormal@2x.png */,
+				E2D967C61BE8950F008FEDD2 /* handlePressed.png */,
+				E2D967C71BE8950F008FEDD2 /* handlePressed@2x.png */,
+				E2D967C91BE8950F008FEDD2 /* rockerOpaqueBg.png */,
+				E2D967CB1BE8950F008FEDD2 /* rockerTranslucentBg.png */,
+				E2D967CC1BE8950F008FEDD2 /* ZMRocker.h */,
+				E2D967CD1BE8950F008FEDD2 /* ZMRocker.m */,
+			);
+			path = ZMRocker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +178,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D967D01BE8950F008FEDD2 /* handlePressed.png in Resources */,
+				E2D967D31BE8950F008FEDD2 /* rockerOpaqueBg.png in Resources */,
+				E2D967CE1BE8950F008FEDD2 /* handleNormal.png in Resources */,
 				E2D967911BE87817008FEDD2 /* LaunchScreen.storyboard in Resources */,
+				E2D967CF1BE8950F008FEDD2 /* handleNormal@2x.png in Resources */,
+				E2D967D51BE8950F008FEDD2 /* rockerTranslucentBg.png in Resources */,
 				E2D9678E1BE87817008FEDD2 /* Assets.xcassets in Resources */,
 				E2D9678C1BE87817008FEDD2 /* Main.storyboard in Resources */,
+				E2D967D11BE8950F008FEDD2 /* handlePressed@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D967B21BE88B89008FEDD2 /* ysocket.swift in Sources */,
 				E2D967891BE87817008FEDD2 /* ViewController.swift in Sources */,
+				E2D967D61BE8950F008FEDD2 /* ZMRocker.m in Sources */,
+				E2D967B51BE88B89008FEDD2 /* yudpsocket.c in Sources */,
+				E2D967B31BE88B89008FEDD2 /* ytcpsocket.c in Sources */,
 				E2D967871BE87817008FEDD2 /* AppDelegate.swift in Sources */,
+				E2D967B41BE88B89008FEDD2 /* ytcpsocket.swift in Sources */,
+				E2D967B61BE88B89008FEDD2 /* yudpsocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +317,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WrtWifiCar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Microduino.WrtWifiCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WrtWifiCar/WrtWifiCar-Bridge-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -260,10 +332,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WrtWifiCar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Microduino.WrtWifiCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WrtWifiCar/WrtWifiCar-Bridge-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -286,6 +361,7 @@
 				E2D967971BE87817008FEDD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
