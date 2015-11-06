@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9CC2FC91BEC50B800342C04 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC2FC81BEC50B800342C04 /* SettingViewController.swift */; };
 		E2D967871BE87817008FEDD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D967861BE87817008FEDD2 /* AppDelegate.swift */; };
 		E2D967891BE87817008FEDD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D967881BE87817008FEDD2 /* ViewController.swift */; };
 		E2D9678C1BE87817008FEDD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D9678A1BE87817008FEDD2 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9CC2FC81BEC50B800342C04 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		E2D967831BE87816008FEDD2 /* WrtWifiCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WrtWifiCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D967861BE87817008FEDD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2D967881BE87817008FEDD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				E2D967981BE87AE6008FEDD2 /* SwiftSockets */,
 				E2D967861BE87817008FEDD2 /* AppDelegate.swift */,
 				E2D967881BE87817008FEDD2 /* ViewController.swift */,
+				B9CC2FC81BEC50B800342C04 /* SettingViewController.swift */,
 				E2D967D81BE897D5008FEDD2 /* WrtWifiCar-Bridge-Header.h */,
 				E2D9678A1BE87817008FEDD2 /* Main.storyboard */,
 				E2D9678D1BE87817008FEDD2 /* Assets.xcassets */,
@@ -202,6 +205,7 @@
 				E2D967D61BE8950F008FEDD2 /* ZMRocker.m in Sources */,
 				E2D967B51BE88B89008FEDD2 /* yudpsocket.c in Sources */,
 				E2D967B31BE88B89008FEDD2 /* ytcpsocket.c in Sources */,
+				B9CC2FC91BEC50B800342C04 /* SettingViewController.swift in Sources */,
 				E2D967871BE87817008FEDD2 /* AppDelegate.swift in Sources */,
 				E2D967B41BE88B89008FEDD2 /* ytcpsocket.swift in Sources */,
 				E2D967B61BE88B89008FEDD2 /* yudpsocket.swift in Sources */,
@@ -324,7 +328,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WrtWifiCar/WrtWifiCar-Bridge-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -338,7 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Microduino.WrtWifiCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WrtWifiCar/WrtWifiCar-Bridge-Header.h";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
